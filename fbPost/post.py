@@ -1,0 +1,10 @@
+from pyfacebook import GraphAPI
+
+api = GraphAPI(access_token='EABAXbfQ7LwcBAH88AEWfrSlwU0QrZAM2sTN04n4ccf5agN8jGR74PFD6HR8t4Bu4ZBB4UYNBz7XD4xnBwGA7J1GKBQKEhjG8IiWRr7lzxUTQDqIKb219uYmYiZAKQ7QbdIDRh7diSWmom1KrXBXA0ov1RTGa5jQu3nlPNHCYytXISrsWegzAlzT9jVyUAMwg9S7zKhWGIPwdiglafnZA1LRHqJZCVx56kN4u9qHu3TG0feuhUE9vW')
+
+id = '4529360643763975'
+secret = 'c0a34b558471881021117ba6f666f024'
+
+access_tocken = 'EABAXbfQ7LwcBAKkkzZAn1dVG7xwqCqXFfZAG8CdedLpjOCypDofTCNWvgEgJKugvGgLVUdhRuPnQLxeN4Yr39edSc3jQPAeaK3VqRIeGuHTymBsZCswb78y57ferc1xbBxaR0vx2pr0U8JWZAwrcBnGBCrNqH56FyWCc6CGt8fZBnBrBlXBrxdZCMMFX6GN1i4cZBzKVDUXQdQlqtvjgm1l'
+
+api = GraphAPI(app_id="id", app_secret="secret", oauth_flow=True)
