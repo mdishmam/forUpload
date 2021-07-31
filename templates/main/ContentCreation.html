@@ -1,0 +1,18 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+    Create Content
+{% endblock %}
+
+{% block content %}
+    <form action="" method="post">
+        {% csrf_token %}
+        <textarea name="Content" rows="20" cols="100" placeholder="Write here..."></textarea>
+        <br>
+        <button type="submit" name="submit" value="pressed">Post of your fb</button>
+        <button type="submit" name="save" value="pressed">Save</button>
+        <br>
+        <span>Hello {{ request.user }} you are logged in. Want to </span>
+        <span><a href="/logout/">Logout</a>? </span>
+    </form>
+{% endblock %}
